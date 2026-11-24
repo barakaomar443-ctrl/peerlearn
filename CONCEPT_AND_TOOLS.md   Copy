@@ -1,1 +1,52 @@
+# PeerLearn: Concept and Tools
 
+## Project idea
+
+- **Name:** PeerLearn
+- **One line:** A platform where students explain concepts they understand to their classmates.
+
+## The problem
+
+- Students often do not understand a topic from lectures or slides alone.
+- Good explanations by classmates stay inside private chats and are lost afterwards.
+- There is no single place to search, rate and ask questions about student explanations.
+- Revising before exams takes a lot of time because the material is scattered.
+
+## The solution
+
+- An explainer writes a clear explanation of a concept they studied.
+- Classmates search by topic or subject, read the explanation and rate it.
+- Students ask questions under an explanation and the explainer answers.
+- AI generates a short summary and a practice quiz from each explanation.
+- Top rated and most viewed explanations are easy to find.
+- An admin manages subjects, removes inappropriate content and views usage statistics.
+
+## Target audience
+
+- **Students:** search, read, rate, ask questions and use the AI summary and quiz.
+- **Explainers:** students who write explanations and answer questions.
+- **Admins:** teaching assistants or team members who manage subjects and content.
+- University students in any course, starting with computer science.
+
+## Tech stack
+
+| Area | Tool |
+|---|---|
+| Language | Python |
+| User interface | Streamlit |
+| Database | SQLite (sqlite3 module) |
+| Data analysis and charts | pandas, Streamlit charts |
+| AI features | An LLM API for summaries and quizzes |
+| Password security | bcrypt |
+| Testing | pytest |
+| Version control | Git and GitHub |
+| Editor | VS Code |
+| Backlog and planning | GitHub Issues and GitHub Projects (board) |
+| Diagrams | PlantUML |
+| AI coding assistant | Replit Agent or similar (vibe coding) |
+
+## Team roles
+
+- **AI:** summaries, quizzes and prompts.
+- **Data analysis:** ratings, rankings, dashboard and database design.
+- **UI/UX:** screens, navigation and user experience.
